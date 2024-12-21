@@ -18,7 +18,7 @@ h2 {
 }
 
 .header__links-list {
-  text-underline-position: under; 
+  text-underline-position: under;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -62,7 +62,7 @@ h2 {
 
 .address a {
   text-underline-position: under;
-  text-decoration-thickness: 1px; 
+  text-decoration-thickness: 1px;
 }
 
 .cover {
