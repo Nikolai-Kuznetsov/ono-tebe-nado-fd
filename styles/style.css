@@ -102,15 +102,13 @@ h2 {
 }
 
 .aligned-text_center {
-  width: 339px;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
+  margin-left: 30px;
 }
 
 .aligned-text_right {
-  width: 387px;
-  margin-left: auto;
-  margin-bottom: 0;
+  text-align: end;
+  margin-right: -30px;
 }
 
 .cover__description {
@@ -158,13 +156,12 @@ h2 {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 25px 25px;
 }
 
 .lots__card-list-item {
   width: 334px;
   min-height: 596px;
-  column-gap: 25px;
-  row-gap: 25px;
 }
 
 .card_type_film {
@@ -172,7 +169,7 @@ h2 {
 }
 
 .card_type_book {
-  background-image: url(../images/card-lot-02.jpg); 
+  background-image: url(../images/card-lot-02.jpg);
 }
 
 .card_type_picture {
